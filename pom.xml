@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.github.AidanCBoyd</groupId>
             <artifactId>StudentProfile</artifactId>
-            <version>-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
