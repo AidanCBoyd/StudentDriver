@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.github.AidanCBoyd:StudentProfile:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.github.AidanCBoyd:StudentProfile:-8a994669ff-1" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />
   </component>
 </module>
