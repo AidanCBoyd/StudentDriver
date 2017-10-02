@@ -10,17 +10,16 @@
 
     <repositories>
         <repository>
-            <id>dropbox</id>
-            <url>https://www.dropbox.com/sh/7o5csc8g8el3hh7/AACAmhD97I0LCBpwlCbGrNhRa?dl=0</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>com.softwareEngineering</groupId>
+            <groupId>com.github.AidanCBoyd</groupId>
             <artifactId>StudentProfile</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
+            <version>-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
