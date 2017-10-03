@@ -87,7 +87,7 @@ public class Driver {
 
         //Get all students in course
         Set<Student> students = new HashSet<Student>();
-        for(Course c : courses) {
+        for(Course c : courses) { // For all courses
             for(Module m : c.getModules()) {
                 for(Student s : m.getStudentList()) {
                     students.add(s);
@@ -124,10 +124,10 @@ public class Driver {
                 }
 
                 //Remove last , and space
-                String preoutput = string.toString().substring(0,string.length()-2);
+                String preOutput = string.toString().substring(0,string.length()-2);
 
                 //Add in details about that students course
-                StringBuilder sb = new StringBuilder(preoutput);
+                StringBuilder sb = new StringBuilder(preOutput);
                 sb.append(". This student is enrolled in the ");
                 sb.append(c.getCourseName());
                 sb.append(" - ");
