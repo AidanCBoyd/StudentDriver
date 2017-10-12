@@ -136,7 +136,8 @@ public class Driver {
 
                 String output = sb.toString();
 
-                //Display output on console
+                //Display output on console in format "Modules for <student name>: <module1>, <module2>, <module3>.
+                //  This student is enrolled in the <course name> - <course code> Course."
                 System.out.println(output);
             }
 
